@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Home() {
   return (
     <main className="background">
-              <span></span>
+      <div></div>
         <span></span>
         <span></span>
         <span></span>
@@ -23,7 +23,8 @@ export default function Home() {
         <span></span>
         <span></span>
         <span></span>
-      <section className="gradient">
+        <span></span>
+      <section className="sticky">
         <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 overflow-x-hidden h-full py-[50px]">
           <div className="flex items-center justify-center">
             <div className="text-white">
