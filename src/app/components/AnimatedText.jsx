@@ -3,11 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 const AnimatedText = () => {
   const data = [
-    'Welcome back to this channel',
-    'Hope you enjoy our tutorials',
-    'We are trying our best for you',
-    'Give your suggestions to improve',
-    'If you like it, comment below'
+    'Acerca de mi',
+    'About me',
   ];
 
   const [displayedText, setDisplayedText] = useState('');
@@ -62,8 +59,10 @@ const AnimatedText = () => {
 
   return (
     <div>
-      <h1>
-        {displayedText}
+      <h1 className='text-center'>
+        &lt;
+        / {displayedText}
+        &gt;
       </h1>
     </div>
 
