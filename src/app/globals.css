@@ -3,50 +3,50 @@
 @tailwind utilities;
 
 body {
-  margin: 0 auto;
-  min-width: 360px;
-  overflow-x: hidden;
-  background-color: #000000;
+    margin: 0 auto;
+    min-width: 360px;
+    overflow-x: hidden;
+    background-color: #000000;
 }
 
 h1 {
-  font-size: 30px;
-  color: #66fcf1;
+    font-size: 30px;
+    color: #66fcf1;
 }
 
 @media (min-width:640px) {
-  h1 {
-    font-size: 35px;
-  }
+    h1 {
+        font-size: 35px;
+    }
 }
 
 @media (min-width:1024px) {
-  h1 {
-    font-size: 40px;
-  }
+    h1 {
+        font-size: 40px;
+    }
 }
 
 p {
-  color: #c5c6c8;
-  font-size: 16px;
+    color: #c5c6c8;
+    font-size: 16px;
 }
 
 @media (min-width:1024px) {
-  p {
-    font-size: 18px;
-  }
+    p {
+        font-size: 18px;
+    }
 }
 
 button:hover {
-  -webkit-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
-  -moz-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
-  box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
+    box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
 }
 
 .contact svg:hover {
-  -webkit-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
-  -moz-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
-  box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
+    -webkit-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
+    -moz-box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
+    box-shadow: 0px 0px 10px 0px rgb(102, 252, 241);
 }
 
 @keyframes move {
@@ -87,6 +87,7 @@ button:hover {
     transform-origin: -11vw -13vh;
     box-shadow: -40vmin 0 5.127637257121334vmin currentColor;
 }
+
 .background span:nth-child(1) {
     color: #201731;
     top: 19%;
@@ -96,6 +97,7 @@ button:hover {
     transform-origin: 18vw -24vh;
     box-shadow: -40vmin 0 5.525981348139406vmin currentColor;
 }
+
 .background span:nth-child(2) {
     color: #7f1f1f;
     top: 37%;
@@ -105,6 +107,7 @@ button:hover {
     transform-origin: -1vw 13vh;
     box-shadow: 40vmin 0 5.031985608986123vmin currentColor;
 }
+
 .background span:nth-child(3) {
     color: #201731;
     top: 41%;
@@ -114,6 +117,7 @@ button:hover {
     transform-origin: 11vw 24vh;
     box-shadow: -40vmin 0 5.4558104530595255vmin currentColor;
 }
+
 .background span:nth-child(4) {
     color: #283c9f;
     top: 17%;
@@ -123,6 +127,7 @@ button:hover {
     transform-origin: 8vw 11vh;
     box-shadow: 40vmin 0 5.975042926254704vmin currentColor;
 }
+
 .background span:nth-child(5) {
     color: #7f1f1f;
     top: 62%;
@@ -132,6 +137,7 @@ button:hover {
     transform-origin: 19vw -4vh;
     box-shadow: -40vmin 0 5.005447236792327vmin currentColor;
 }
+
 .background span:nth-child(6) {
     color: #283c9f;
     top: 28%;
@@ -141,6 +147,7 @@ button:hover {
     transform-origin: 0vw 4vh;
     box-shadow: 40vmin 0 5.500178030829062vmin currentColor;
 }
+
 .background span:nth-child(7) {
     color: #283c9f;
     top: 12%;
@@ -150,6 +157,7 @@ button:hover {
     transform-origin: -7vw 4vh;
     box-shadow: -40vmin 0 5.698908052431215vmin currentColor;
 }
+
 .background span:nth-child(8) {
     color: #283c9f;
     top: 51%;
@@ -159,6 +167,7 @@ button:hover {
     transform-origin: 7vw 7vh;
     box-shadow: 40vmin 0 5.775919673768186vmin currentColor;
 }
+
 .background span:nth-child(9) {
     color: #283c9f;
     top: 47%;
@@ -168,6 +177,7 @@ button:hover {
     transform-origin: 9vw -4vh;
     box-shadow: 40vmin 0 5.865912207926989vmin currentColor;
 }
+
 .background span:nth-child(10) {
     color: #201731;
     top: 47%;
@@ -177,6 +187,7 @@ button:hover {
     transform-origin: -3vw -1vh;
     box-shadow: -40vmin 0 5.247374433612655vmin currentColor;
 }
+
 .background span:nth-child(11) {
     color: #201731;
     top: 65%;
@@ -186,6 +197,7 @@ button:hover {
     transform-origin: -3vw -13vh;
     box-shadow: 40vmin 0 5.284939290255622vmin currentColor;
 }
+
 .background span:nth-child(12) {
     color: #283c9f;
     top: 12%;
@@ -195,6 +207,7 @@ button:hover {
     transform-origin: -23vw 0vh;
     box-shadow: 40vmin 0 5.732463808182382vmin currentColor;
 }
+
 .background span:nth-child(13) {
     color: #201731;
     top: 58%;
@@ -204,6 +217,7 @@ button:hover {
     transform-origin: 22vw -18vh;
     box-shadow: -40vmin 0 5.555368811541948vmin currentColor;
 }
+
 .background span:nth-child(14) {
     color: #7f1f1f;
     top: 22%;
@@ -213,6 +227,7 @@ button:hover {
     transform-origin: 2vw 9vh;
     box-shadow: -40vmin 0 5.962819320725865vmin currentColor;
 }
+
 .background span:nth-child(15) {
     color: #201731;
     top: 84%;
@@ -222,6 +237,7 @@ button:hover {
     transform-origin: 2vw -15vh;
     box-shadow: 40vmin 0 5.489803174925906vmin currentColor;
 }
+
 .background span:nth-child(16) {
     color: #283c9f;
     top: 65%;
@@ -231,6 +247,7 @@ button:hover {
     transform-origin: 18vw -3vh;
     box-shadow: 40vmin 0 5.696192267570401vmin currentColor;
 }
+
 .background span:nth-child(17) {
     color: #7f1f1f;
     top: 64%;
@@ -240,6 +257,7 @@ button:hover {
     transform-origin: -20vw -23vh;
     box-shadow: -40vmin 0 5.309943004004069vmin currentColor;
 }
+
 .background span:nth-child(18) {
     color: #283c9f;
     top: 94%;
@@ -249,6 +267,7 @@ button:hover {
     transform-origin: 23vw 14vh;
     box-shadow: 40vmin 0 5.491961516185768vmin currentColor;
 }
+
 .background span:nth-child(19) {
     color: #283c9f;
     top: 20%;
