@@ -29,14 +29,14 @@ export default function Home() {
         <span></span>
         <span></span>
       </div>
-      <section className="z-2">
+      <section className="sticky z-2">
         <Navbar />
         {/* section 1 */}
         <div className="container mx-auto grid grid-cols-1 lg:grid-cols-2 overflow-x-hidden h-full pt-[120px] pb-[50px] px-[15px] text-white">
           <div>
             <div className="flex justify-center">
               <Image
-                className='h-auto w-[50%] rounded-[15px]'
+                className='h-auto w-[30%] rounded-[15px]'
                 src="/1.jpg"
                 alt="Front Image"
                 width={300}
@@ -150,7 +150,7 @@ export default function Home() {
           <div className="order-2 lg:order-1 mt-3">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
               <div>
-                <a href="https://next-js-lalaween.vercel.app" target="blank">
+                <a href="https://next-js-lalaween.vercel.app" target="_blank">
                   <Image
                     className='h-auto w-[100%] rounded-[15px]'
                     src="/lalaween.png"
@@ -161,7 +161,7 @@ export default function Home() {
                 </a>
               </div>
               <div>
-                <a href="https://garay-seven.vercel.app" target="blank">
+                <a href="https://garay-seven.vercel.app" target="_blank">
                   <Image
                     className='h-auto w-[100%] rounded-[15px]'
                     src="/garay.png"

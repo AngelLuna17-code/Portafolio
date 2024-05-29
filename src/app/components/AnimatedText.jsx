@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 const AnimatedText = () => {
   const data = [
-    'Acerca de mi',
-    'About me',
+    'ACERCA DE MI',
+    'ABOUT ME',
   ];
 
   const [displayedText, setDisplayedText] = useState('');

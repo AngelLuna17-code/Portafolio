@@ -3,8 +3,8 @@ import React, { useEffect, useState } from 'react';
 
 const AnimatedText3 = () => {
     const data = [
-        'Mi portafolio',
-        'My portfolio',
+        'MI PORTAFOLIO',
+        'MY PORTFOLIO',
     ];
 
     const [displayedText, setDisplayedText] = useState('');
