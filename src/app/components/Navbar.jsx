@@ -112,12 +112,12 @@ const Navbar = () => {
               </li>
               <li>
                 <Link className="text-white hover:text-[#00cac4]" href="/#habilidades" onClick={closeMenuOnClick}>
-                  Nosotros
+                  Habilidades
                 </Link>
               </li>
               <li>
                 <Link className="text-white hover:text-[#00cac4]" href="/#portafolio" onClick={closeMenuOnClick}>
-                  Servicios
+                  Portafolio
                 </Link>
               </li>
             </ul>
