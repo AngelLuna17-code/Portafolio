@@ -49,7 +49,7 @@ export default function Home() {
                 &lt;Angel Luna&gt;
               </p>
               <p className="mt-3 text-[20px] lg:text-[23px]">
-                Desarrollador Front End
+                Desarrollador web
               </p>
             </div>
             <div className="flex justify-center mt-3">
