@@ -178,7 +178,7 @@ export default function Home() {
                 </a>
               </div>
               <div>
-                <a href="https://capital-ochre.vercel.app">
+                <a href="https://capital-ochre.vercel.app" target="_blank">
                   <Image
                     className='h-auto w-[100%] rounded-[15px]'
                     src="/capital.png"
