@@ -156,7 +156,7 @@ export default function Home() {
           <div className="order-2 lg:order-1 mt-3">
             <div className="grid grid-cols-1 lg:grid-cols-2 gap-5">
               <div>
-                <a href="https://next-js-lalaween.vercel.app" target="_blank">
+                <a href="https://www.lalaween.com" target="_blank">
                   <Image
                     className='h-auto w-[100%] rounded-[15px]'
                     src="/lalaween.png"
