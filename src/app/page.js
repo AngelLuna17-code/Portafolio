@@ -178,13 +178,15 @@ export default function Home() {
                 </a>
               </div>
               <div>
-                <Image
-                  className='h-auto w-[100%] rounded-[15px]'
-                  src="/capital.png"
-                  alt="Front Image"
-                  width={300}
-                  height={300}
-                />
+                <a href="https://capital-ochre.vercel.app">
+                  <Image
+                    className='h-auto w-[100%] rounded-[15px]'
+                    src="/capital.png"
+                    alt="Front Image"
+                    width={300}
+                    height={300}
+                  />
+                </a>
               </div>
             </div>
           </div>
